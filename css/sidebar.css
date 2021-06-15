@@ -1,0 +1,128 @@
+.sidebar {
+    float: left;
+    width: 250px;
+    padding: 10px;
+    height: 100%;
+    overflow-y: auto;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.sidebar__wraper {
+    padding-bottom: 180px 0;
+    color: rgb( 190, 190, 190);
+    margin-left: 10px;
+}
+
+.sidebar__logo img {
+    max-width: 200px;
+    width: 60%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+} 
+
+.sidebar__menu a {
+    color: rgb(190, 190 ,190);
+    text-decoration: none;
+    display: block;
+    padding: 10px 5px;
+}
+
+.sidebar__menu svg {
+  vertical-align: middle;
+}
+
+#sidebar__inicio:hover {
+    opacity: 70%
+}
+
+#sidebar__Buscar:hover {
+    opacity: 70%;
+    transition: 0.2s ease-in;
+}
+
+#sidebar__Biblioteca:hover {
+    opacity: 70%;
+    transition: 0.2s ease-in;
+
+}
+
+#sidebar__Inicio {
+    color: white;
+    background-color: rgb(80, 80, 80);
+    border-radius: 5px;
+}
+
+.sidebar__menu__item {
+    margin-top: 12px;
+    cursor: pointer;
+    vertical-align: middle;
+    margin-bottom: 12px;
+}
+
+.sidebar__menu p.sidebar__menu__tittle {
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.sidebar__menu img {
+    width: 23px;
+    height: 23px;
+}
+
+.sidebar__menu__item__componente {
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    display: inline-block;
+    line-height: 23px;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+}
+
+.sidebar__menu__item span{
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0 12px;
+}
+
+.sidebar__menu__item img {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.sidebar__menu i {
+    padding-right: 23px;
+}
+
+.sidebar__menu__tittle__curtidas:hover{
+    opacity: 70%;
+    transition: 0.2s ease-in;
+}
+
+.sidebar__menu__tittle__play:hover {
+    opacity: 70%;
+    transition: 0.2s ease-in;
+}
+
+.sidebar__playlist {
+    padding: 12px 0;
+    border-top: 1px solid rgb(40, 40, 40);
+    font-size: 14px;
+}
+
+.sidebar__playlist a{
+    margin: 10px 0;
+    display: block;
+    color: rgb(190, 190, 190);
+    text-decoration: none;
+}
+
+.sidebar__playlist a{
+    color:rgb(190, 190 ,190);
+}

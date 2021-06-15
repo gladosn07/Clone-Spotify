@@ -1,0 +1,63 @@
+.player {
+    width: 100%;
+    padding: 20px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    background-color: rgb(60, 60, 60);
+}
+
+.player__artist {
+    width: 20%;
+}
+
+.player__artist img {
+    max-width: 70px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.player__artist h3 {
+    display: inline-block;
+    color: white;
+    font-weight: normal;
+    font-size: 20px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.player__artist h3 > span {
+    color: rgb(200, 200, 200);
+    font-size: 13px;
+}
+
+.player__controll {
+    width: 70%;
+    text-align: center;
+}
+
+.player__controll__buttons a{
+    color: white;
+    margin: 8px 15px;
+    font-size: 18px;
+}
+
+.player__controll__progress {
+    width: 100%;
+    max-width: 600px;
+    height: 7px;
+    margin-top: 20px;
+    position: relative;
+    border-radius: 8px;
+    display: inline-block;
+    background: rgb(130, 130, 130);
+}   
+
+#audioplayer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
