@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Rocket.Q" title="Rocket.Q" src="img/spotify.png" width="800px" height="550px" />
+  <img alt="Rocket.Q" title="Spotify Clone" src="img/spotify.png" width="800px" height="550px" />
 </h1>
 
 # Clone-Spotify
